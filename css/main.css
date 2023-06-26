@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+background-color: #11100f;
+}
+/* ----Header----*/
+
+header#cabecalho-principal{
+    background-color: #E8AC0B;
+    width: 100%;
+    height: 40px;
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+#points-game{
+    background: #003CB4;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 5px 50px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#points-game img{
+    height: 20px;
+    margin-right: 15px;
+}
+
+
+#name-game{
+    font-weight: bolder;
+    font-size: 27px;
+    margin-right: 20px;
+}
+
+/* ----Body----*/
+
+section#corpo div#esquerda{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    
+    width: 60%;
+    align-items: center;
+    margin-left: 10px;
+    
+}
+section#corpo div#esquerda div#cor-atual{
+    height: 200px;
+    width: 200px;
+    border: 10px solid #E8AC0B;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+section#corpo div#esquerda button#btn-responder{
+    background-color: transparent;
+    color: #ffffff;
+    padding: 15px 45px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+section#corpo{
+    display: flex;
+    flex-direction:row ;
+    margin-top: 15px;
+}
+/* ----Footer----*/
+
+ footer#rodape{
+    background-color: rgb(103, 12, 12);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 160px;
+    align-items: center;
+}
